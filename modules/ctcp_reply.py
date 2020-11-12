@@ -29,7 +29,7 @@ class ctcp_reply(Module):
                               "{}".format(trailing_s, ' '.join(online_runners)))
                 event['source'].msg(runner_msg)
 
-            event['source'].ctcp_reply('VERISON', ver)
+            event['source'].ctcp_reply('VERSION', ver)
 
         elif event['ctcp_verb'] == 'userinfo':
             userinfostring = None
