@@ -55,7 +55,7 @@ class InfoStore():
         }
 
     def update_store_version(self, current_version):
-        """Update our internal store from the given verison, return the new version."""
+        """Update our internal store from the given version, return the new version."""
         raise NotImplementedError('update_store_version must be replaced when subclassed')
 
     # helper function
